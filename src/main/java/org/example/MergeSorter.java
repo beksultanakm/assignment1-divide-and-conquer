@@ -55,11 +55,9 @@ public class MergeSorter {
     }
 
     private void merge(int[] a, int left, int mid, int right) {
-        // 1) [left..right] бөлігін буферге көшіреміз
         for (int k = left; k <= right; k++) {
             buffer[k] = a[k];
         }
-
         int i = left;
         int j = mid + 1;
         int k = left;
