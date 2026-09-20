@@ -1,3 +1,5 @@
+package org.example;
+
 public class Point {
     public final double x;
     public final double y;

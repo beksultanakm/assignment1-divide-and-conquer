@@ -1,3 +1,5 @@
+package org.example;
+
 public class MergeSorter {
 
     private static final int CUTOFF = 16;
